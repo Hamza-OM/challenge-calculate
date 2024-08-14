@@ -1,5 +1,5 @@
 // test.js
-const calculateSum = require('./calculateSum');
+const calculateSum = require('./calculatesum');
 
 const result = calculateSum([1, 2, 3, 4]);
 if (result === 10) {
