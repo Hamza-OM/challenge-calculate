@@ -1,7 +1,7 @@
 // test.js
 const calculateSum = require('./calculatesum');
 
-const result = calculateSum([1, 2, 3, 4]);
+const result = calculateSum([1, 2, 3, 5]);
 if (result === 10) {
     console.log('Test passed!');
     process.exit(0); // Exit with a status code of 0 (success)
